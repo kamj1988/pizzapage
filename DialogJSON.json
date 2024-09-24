@@ -1,0 +1,55 @@
+{
+  "communication": "Email2Dialog",
+  "dataset": [
+    {
+      "id": "48b83fc8-2a81-485e-ab52-4014e79fb106",
+      "insurance_id": "de1f3ea4-ff00-4105-9301-96b84de213a1",
+      "amount": "45.00",
+      "paid": 0,
+      "notified": 0,
+      "created_at": "2023-08-10T13:09:05.000000Z",
+      "updated_at": "2023-08-10T13:09:26.000000Z",
+      "payment_hash": "1e64a12de1b3132bffc49e926f4b627b0bdd153eb2e1bd25b98741cba7e2bc4e",
+      "payment_arrangement": 0,
+      "user": {
+        "id": "1670ebfa-711c-4cfc-9826-6dbc0c062339",
+        "firstName": "Hans",
+        "lastName": "van Breeden",
+        "language": "NL",
+        "email": "kamil.janoszek@precisely.com",
+        "phonenumber": "+31612038275",
+        "address_street": "Kosterijland 14c",
+        "address_housenumber": "",
+        "address_postalcode": "3981 AJ",
+        "address_city": "Bunnik",
+        "created_at": "2023-08-10T13:00:43.000000Z",
+        "updated_at": "2023-08-10T13:05:47.000000Z"
+      },
+      "insurance": {
+        "id": "de1f3ea4-ff00-4105-9301-96b84de213a1",
+        "user_id": "1670ebfa-711c-4cfc-9826-6dbc0c062339",
+        "polis_schadevrije_jaren": 8,
+        "polis_km_per_jaar": 25000,
+        "polis_autoverzekering": "All Risk",
+        "polis_premie_netto": "52.00",
+        "polis_advies": "All Risk",
+        "polis_adviseur": "Dennis",
+        "rdw_kenteken": "X823LR",
+        "rdw_merk": "Honda",
+        "rdw_model": "Civic",
+        "rdw_inrichting": "Hatchback",
+        "rdw_kleur": "Wit",
+        "rdw_eerstetoelating": 2022,
+        "rdw_catalogusprijs": "30049",
+        "created_at": "2023-08-10T13:00:43.000000Z",
+        "updated_at": "2023-08-10T13:00:43.000000Z"
+      }
+    }
+  ],
+  "email_json_path": "$[*].user.email",
+  "sender": "kamil.janoszek@precisely.com",
+  "sender_name": "Hans van Breeden",
+  "subject": "Dit is een test mail",
+  "ignore_missing_fields": "true",
+  "project": "Hans"
+}
