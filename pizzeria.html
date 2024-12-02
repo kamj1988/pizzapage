@@ -1,5 +1,26 @@
 <!DOCTYPE html>
 
+<html>
+    <head>
+        <title>EngageOne&trade; Communicate Chat Web Client Example</title>
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; object-src 'self' blob: https://*.sectest.engageonechat.com/ https://*.sectest.us-east-1.engageonechat.com/; img-src 'self' data: http: https:; style-src 'self' 'unsafe-inline' https://*.sectest.engageonechat.com/ https://*.sectest.us-east-1.engageonechat.com/ https://fonts.googleapis.com/; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.sectest.engageonechat.com/ https://*.sectest.us-east-1.engageonechat.com/; font-src 'self' https://*.sectest.engageonechat.com/ https://*.sectest.us-east-1.engageonechat.com/ https://fonts.gstatic.com/; connect-src 'self' https://*.sectest.engageonechat.com/ https://*.sectest.us-east-1.engageonechat.com/ https://*.s3.amazonaws.com/ blob: https://*.sectest.engageonechat.com/ https://*.sectest.us-east-1.engageonechat.com/ wss://*.sectest.engageonechat.com/ wss://*.sectest.us-east-1.engageonechat.com/; frame-src 'self' http: https: blob:; media-src 'self'; base-uri 'self'; form-action 'self'"/>
+    </head>
+    <body>
+        <div id="chatcontainer" class="chat-container"></div>
+        <script src="https://webclient.sectest.engageonechat.com/loader.min.js"></script>
+        <script>converseChatLoader({
+            host: "wss://chatws.sectest.us-east-1.engageonechat.com",
+            converseHost: "https://chatrunner.sectest.us-east-1.engageonechat.com",
+            serverUserImage: "https://webclient.dev2.engageonechat.com/eo-square-mark.png",
+            tenant: "sa3e8b2",
+            botId: "Kamil J,BOT UI",
+            placeholder: "Type a message...",
+            chatBotBaseUrl: "https://webclient.sectest.engageonechat.com"
+        });</script>
+    </body>
+</html>
+
 <head>
   <!-- // video Script -->
   <script async defer src="https://embed.engageone.video/latest/playerPlugin.js"></script>
