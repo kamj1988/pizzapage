@@ -44,7 +44,7 @@ pizzapage/
 
 ## 📖 Documentation
 
-- [How to Cancel GitHub Copilot](JAK_ANULOWAC_COPILOTA.md) - Guide on canceling GitHub Copilot subscription (Polish & English)
+- [Jak anulować GitHub Copilot / How to Cancel GitHub Copilot](JAK_ANULOWAC_COPILOTA.md) - Comprehensive guide on canceling GitHub Copilot subscription (Przewodnik po anulowaniu subskrypcji GitHub Copilot)
 
 ## 📝 License
 
